@@ -1,0 +1,125 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Base stack',
+        },
+      ],
+      path: 'sampledata/w.fbx',
+    },
+    {
+      clips: [
+        {
+          name: 'Base stack',
+        },
+      ],
+      path: 'sampledata/w.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Mat',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Null',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/w.fbx',
+    name: 'w',
+    recenter: 'root',
+    scale: 0.67310999999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\w.fbm\\Null.1Surface_Color.jpg',
+      name: 'Null.1Surface_Color',
+      pipeline_name: 'w.fbm\\Null.1Surface_Color.jpg',
+    },
+    {
+      file: 'sampledata\\w.fbm\\922f145fcca2d4dd87186af3a90c8d3a.jpg',
+      name: '922f145fcca2d4dd87186af3a90c8d3a',
+      pipeline_name: 'w.fbm\\922f145fcca2d4dd87186af3a90c8d3a.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
